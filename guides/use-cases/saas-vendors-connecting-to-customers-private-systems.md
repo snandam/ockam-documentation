@@ -20,6 +20,7 @@ The problem with a publicly accessible services approach is that services are ex
 A VPN based approach instead creates a secure connection from the network where the SaaS platform is running to network where the private service is located. This is a significant improvement from a publicly accessible services model, but it's still overly expansive in terms of the access it grants. As it's connecting _networks_ on each side it risks exposing connectivity to a larger footprint of infrastructure than is required. Customers would need to put further network access restrictions in place, or reconsider their network architecture to isolate the service(s) in question from the rest of their infrastructure. Asking customers to rearchitect their network to enable them to use your product securely should be a last resort.
 
 ### How Ockam simplifies it
+#TODO: Instead of "Server" in the diagram to match with the context above, be called as "private service"?
 
 <img src="../../.gitbook/assets/file.excalidraw (2) (1) (2).svg" alt="" class="gitbook-drawing">
 
@@ -29,6 +30,6 @@ Within your SaaS platform you can use the Ockam programming libraries (or altern
 
 ### Next steps
 
-* Follow our [getting started guide to install Ockam](../../reference/command/#install) and start using it in just a few minutes.
-* [Reach out to the team](https://www.ockam.io/contact/form), we'd love to talk to you in more detail about your potential use cases.
-* Join the growing community of developers who want to build trust by making applications that are secure-by-design, in the [Build Trust Discord server](https://discord.gg/RAbjRr3kds).
+* Follow our [<mark style="color:blue;">getting started guide to install Ockam</mark>](../../reference/command/#install) and start using it in just a few minutes.
+* [<mark style="color:blue;">Reach out to the team</mark>](https://www.ockam.io/contact/form), we'd love to talk to you in more detail about your potential use cases.
+* Join the growing community of developers who want to build trust by making applications that are secure-by-design, in the [<mark style="color:blue;">Build Trust Discord server</mark>](https://discord.gg/RAbjRr3kds).
